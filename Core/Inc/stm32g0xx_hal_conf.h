@@ -85,9 +85,9 @@ extern "C" {
 #define USE_HAL_RNG_REGISTER_CALLBACKS    0u
 #define USE_HAL_RTC_REGISTER_CALLBACKS    0u
 #define USE_HAL_SMBUS_REGISTER_CALLBACKS  0u
-#define USE_HAL_SPI_REGISTER_CALLBACKS    0u
+#define USE_HAL_SPI_REGISTER_CALLBACKS    1u
 #define USE_HAL_TIM_REGISTER_CALLBACKS    0u
-#define USE_HAL_UART_REGISTER_CALLBACKS   0u
+#define USE_HAL_UART_REGISTER_CALLBACKS   1u
 #define USE_HAL_USART_REGISTER_CALLBACKS  0u
 #define USE_HAL_WWDG_REGISTER_CALLBACKS   0u
 
@@ -199,7 +199,7 @@ in voltage and temperature.*/
   * @brief Uncomment the line below to expanse the "assert_param" macro in the
   *        HAL drivers code
   */
-/* #define USE_FULL_ASSERT    1U */
+ #define USE_FULL_ASSERT    1U
 
 /* Includes ------------------------------------------------------------------*/
 /**
